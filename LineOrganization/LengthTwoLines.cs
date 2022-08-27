@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LineOrganization
 {
-    internal class Length
+    internal class LengthTwoLines
     {
         public double length(double x1, double x2, double y1, double y2)
         {

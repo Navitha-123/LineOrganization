@@ -10,13 +10,13 @@
             {
                 case 1:
                     //Length.double length(double x1, double x2, double y1, double y2);
-                    Length length1 = new Length();
+                    LengthTwoLines length1 = new LengthTwoLines();
                     Console.WriteLine(length1.length(45, 23, 40, 20));
                     break;
-                    /* case 2:
-                    EqualsLength.IsEquals(56, 56);
+                     case 2:
+                    EqualsLength.CheckLength(56, 78, 45, 34, 79, 67, 34, 25);
                      break;
-                 case 3:
+                 /*case 3:
                      CompareLength.CompareTo(46, 89);
                      break;
                      default:
