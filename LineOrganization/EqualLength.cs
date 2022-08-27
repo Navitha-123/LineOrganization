@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LineOrganization
 {
-    internal class EqualsLength
+    internal class EqualLength
     {
         
             static double length1;
