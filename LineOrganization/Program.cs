@@ -14,20 +14,24 @@
                     Console.WriteLine(length1.length(45, 23, 40, 20));
                     break;
                      case 2:
-                    EqualsLength.CheckLength(56, 78, 45, 34, 79, 67, 34, 25);
+                   // EqualsLength.CheckLength(56, 78, 45, 34, 79, 67, 34, 25);
                      break;
-                 /*case 3:
-                     CompareLength.CompareTo(46, 89);
-                     break;
-                     default:
-                     Console.WriteLine("wrong length");
-                     break;
-             }
-                    */
+                //case 3:
+                  //  CompareLength.CompareTo(46, 89);
+                    break;
 
-
-
+                case 3:
+                    CompareTwoLengths.ComparisonOfTwoLengths();
+                    break;
+                    default:
+                    Console.WriteLine("wrong length");
+                    break;
             }
+                 
+                
+
+
+            
         }
     }
 }
